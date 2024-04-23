@@ -1,0 +1,324 @@
+body
+{
+	font-family: Verdana !important;
+	position: absolute; 
+	margin: 0;
+}
+
+#mainContainer
+{
+	min-height: 90% !important;
+	max-height: 95%;
+	min-width: 90%;
+}
+
+p, h5, span, a
+{
+	font-size: 1.2vw;
+}
+
+@media (max-width: 600px) 
+{
+	p, h5, span, a
+	{
+		font-size: 1.4vw;
+	}
+}
+
+td, th 
+{
+	font-size: 1.4vw;
+}
+
+@media (max-width: 600px) 
+{
+	td, th 
+	{
+		font-size: 2.2vw;
+	}
+}
+
+.collapseButton
+{
+	padding-left: 1vw;
+	padding-right: 1vw;
+}
+
+@media (min-width: 600px), (max-width: 1000)
+{
+	.collapseButton
+	{
+		min-width: 100%;
+	}
+}
+
+@media (max-width: 1000px)
+{
+	#collapseButtons
+	{
+		float: left;
+	}
+}
+
+#dailyMessage 
+{
+	align: right;
+	color: white;
+	background-color: #009AC7;
+	border-radius: .5vw;
+	font-size: 1.5vw;
+	max-height: 10vw;
+}
+
+@media (min-width: 600px), (max-width: 1000px)
+{
+	#dailyMessage
+	{
+		max-width: 35vw;
+	}
+}
+
+@media (max-width: 600px) 
+{
+	#dailyMessage 
+	{
+		align: right;
+		min-width: 58vw !important;
+		font-size: 2vw;
+	}
+	#dateTime
+	{
+		padding: .1vw;
+	}
+}
+
+@media (min-width: 1000)
+{
+	#dailyMessage
+	{
+		min-width: 70vw;
+	}
+}
+
+textarea::placeholder
+{
+	color:#fff;
+}
+
+.colorCol
+{
+	height: .5vw;
+	width: 2vw;
+	margin: 0;
+}
+
+.collapseButton
+{
+	text-decoration: none;
+	color: white;
+	background-color: gray;
+	border: .085em solid gray #711471;
+	border-radius: .15vw;
+	padding-left: 1.5%;
+	padding-right: 1.7%;
+}
+
+@media (max-width: 600px) 
+{
+	.collapseButton
+	{
+		font-size: 2vw;
+	}
+}
+
+.collapseButton:hover
+{
+	text-decoration: none;
+	color: gray;
+	background-color: white;
+}
+
+.collapseButton.collapsed:before
+{
+	color: white;
+	background-color: gray;
+}
+
+.collapseButton:before 
+{
+	color: gray;
+	background-color: white;
+}
+
+.vidDiv 
+{ 
+	display: none !important; 
+}
+
+.vidDivMedSm
+{
+	min-width: 90%;
+}
+	
+.numberDiv 
+{
+	min-width: 2vw;
+	max-width: 19vw;
+}
+
+@media (max-width: 600px) 
+{
+	.numberDiv
+	{
+		min-width: 5vw;
+		max-width: 30vw;
+	}	
+}
+
+.numberDisplay 
+{
+	font-size: 7vw;
+}
+
+@media (max-width: 600px) 
+{
+	.numberDisplay
+	{
+		font-size: 13vw;
+	}	
+}
+
+.withClientRow 
+{
+	background-color: #009AC7;
+	color: white;
+}
+
+.outOfOfficeRow 
+{
+	background-color: #F89728;
+	color: white;
+}
+
+.inOfOfficeRow 
+{
+	background-color: #B92F92;
+	color: white;
+}
+
+
+.table-wrapper-scroll-y 
+{
+	position: relative;
+	overflow-y: hidden;
+	overflow-x: hidden;
+}
+
+#staffTableWrapper
+{
+	max-height: 12.4vh;	
+}
+
+#ticketTableWrapper
+{
+	max-height: 90px;
+	/* max-height: 13vh; */
+}
+
+@media screen (min-width: 1200px)
+{
+	#ticketTableWrapper
+	{
+		max-height: 800px; 
+	}
+}
+
+.staffName
+{
+	padding-left: 1vw;
+}
+
+.ticketTime
+{
+	margin-right = 1vw !important; 
+}
+
+.headerGray 
+{
+	color: gray; 
+	font-weight: 700;
+	font-size: 1.2vw;
+}
+
+@media (max-width: 600px)
+{
+	.headerGray 
+	{
+		color: gray; 
+		font-weight: 700;
+		font-size: 2vw;
+	}	
+}
+
+.headerOrange 
+{
+	color: #F89728; 
+	font-weight: 700;
+}
+
+.headerPurple
+{
+	color: #B92F92; 
+	font-weight: 700;
+}
+
+.headerGreen
+{
+	color: #00927E; 
+	font-weight: 700;
+}
+
+.tableRow
+{
+	background-color: #D3D3D3;
+}
+
+.textBlue
+{
+	color: #009AC7
+}
+
+.textGreen
+{
+	color: #00927E;
+}
+
+.borderDark
+{
+	border: .085em solid #711471;
+}
+
+.borderOrange
+{
+	border: .085em solid #F89728;
+}
+
+.borderBlue 
+{
+	border: .085em solid #009AC7;
+} 
+
+.borderGreen
+{
+	border: .085em solid #00927E;
+}
+
+.borderPurple
+{
+	border: .085em solid #B92F92;
+}
+
+.id	
+{
+	display: none;
+}
